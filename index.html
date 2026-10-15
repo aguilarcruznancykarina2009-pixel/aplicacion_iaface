@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10152f"><meta name="description" content="Portal educativo sobre inteligencia artificial del CBTis 260.">
+<title>Portal Educativo de IA | CBTis 260</title>
+<link rel="manifest" href="manifest.json"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="estilos.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <img id="logo" src="imagenesia/imagenlogo.jpg" alt="Logotipo del CBTis 260">
+  <div class="brand"><span class="eyebrow">APRENDER · EXPLORAR · INNOVAR</span><h1>Centro Bachillerato Tecnológico Industrial y de Servicios 260</h1><p>Portal Educativo de Inteligencia Artificial</p></div>
+  <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="nav">☰ Menú</button>
+</header>
+<nav id="nav" class="nav" aria-label="Navegación principal">
+<button class="nav-btn active" data-target="inicio">Inicio</button>
+<button class="nav-btn" data-target="vida">IA y la vida diaria</button>
+<button class="nav-btn" data-target="noticias">Divulgación y noticias</button>
+<button class="nav-btn" data-target="etica">Ética, futuro y sociedad</button>
+<button class="nav-btn" data-target="sectores">Aplicaciones especializadas</button>
+<button class="nav-btn" data-target="tutoriales">Tutoriales y prompts</button>
+<button class="nav-btn" data-target="tipos">Tipos de IA y más</button>
+<button class="nav-btn" data-target="reconocimiento">Aplicación de reconocimiento facial</button>
+</nav>
+<main>
+<section class="section hero" id="inicio">
+ <div class="hero-copy"><span class="pill">PORTAL EDUCATIVO · 2026</span><h2>Explora el universo de la <span class="gradient-text">inteligencia artificial</span></h2><p>Aprende qué es la IA, cómo transforma nuestra vida y cómo utilizarla de forma creativa, crítica y responsable.</p><div class="hero-actions"><button class="primary" data-go="vida">Comenzar a explorar →</button><button class="secondary" data-go="tutoriales">Ver tutoriales</button></div><p class="small-note">Contenido educativo para estudiantes del CBTis 260.</p></div>
+ <div class="orb-scene" aria-hidden="true"><div class="orb">IA</div><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="spark s1">✦</span><span class="spark s2">⌘</span><span class="spark s3">✧</span></div>
+</section>
+<section class="section" id="vida" hidden><div class="section-heading"><span class="eyebrow">01 · A TU ALREDEDOR</span><h2>IA y la vida diaria</h2><p>La inteligencia artificial es un conjunto de técnicas que permite a los sistemas realizar tareas como reconocer patrones, comprender lenguaje, generar contenido o hacer predicciones.</p></div>
+<div class="cards" id="vidaCards">
+<article class="card"><div class="emoji">🎙️</div><h3>Asistentes virtuales</h3><p>Interpretan solicitudes de voz o texto y ayudan con recordatorios, búsquedas y tareas cotidianas.</p></article>
+<article class="card"><div class="emoji">📚</div><h3>Educación y tareas</h3><p>Puede explicar conceptos, proponer ejercicios y ayudar a revisar un borrador. Verifica los datos y entrega tu propio trabajo.</p></article>
+<article class="card"><div class="emoji">🎬</div><h3>Redes sociales</h3><p>Los sistemas de recomendación ordenan publicaciones, videos y música según señales de uso y preferencias.</p></article>
+<article class="card"><div class="emoji">🩺</div><h3>Medicina y salud</h3><p>Apoya el análisis de imágenes médicas y la organización de información; las decisiones clínicas requieren profesionales.</p></article>
+<article class="card"><div class="emoji">🗺️</div><h3>Transporte y navegación</h3><p>Estima rutas, predice tráfico y calcula tiempos a partir de datos disponibles.</p></article>
+<article class="card"><div class="emoji">🏠</div><h3>Hogares inteligentes</h3><p>Algunos dispositivos reconocen comandos, automatizan rutinas y optimizan el uso de energía.</p></article>
+<article class="card"><div class="emoji">🌐</div><h3>Traducción automática</h3><p>Modelos de lenguaje traducen textos y voz; expresiones culturales y tecnicismos pueden requerir revisión humana.</p></article>
+</div></section>
+<section class="section" id="noticias" hidden><div class="section-heading"><span class="eyebrow">02 · DIVULGACIÓN</span><h2>Noticias y novedades</h2><p>Esta sección no consulta noticias en tiempo real. Los elementos siguientes son ejemplos educativos, no noticias actuales.</p></div><div class="notice warning">Para publicar una noticia real, añade título, fecha de publicación, resumen y enlace verificable a la fuente original. No presentes ejemplos como acontecimientos confirmados.</div>
+<div class="cards"><article class="card"><span class="tag">EJEMPLO EDUCATIVO</span><h3>IA generativa en el aprendizaje</h3><p>Investiga cómo se utilizan asistentes generativos para crear explicaciones y materiales personalizados, y cuáles son sus límites.</p><p class="source">Fuente para consultar: UNESCO · unesco.org</p></article>
+<article class="card"><span class="tag">EJEMPLO EDUCATIVO</span><h3>IA para la investigación científica</h3><p>Explora cómo los modelos pueden ayudar a analizar conjuntos de datos y proponer hipótesis que después deben validarse.</p><p class="source">Fuente para consultar: Nature · nature.com</p></article>
+<article class="card"><span class="tag">EJEMPLO EDUCATIVO</span><h3>Herramientas de IA y productividad</h3><p>Compara herramientas para redactar, programar o resumir. Revisa sus políticas de privacidad, costos y condiciones de uso.</p><p class="source">Fuente: documentación oficial de cada herramienta.</p></article></div></section>
+<section class="section" id="etica" hidden><div class="section-heading"><span class="eyebrow">03 · PENSAMIENTO CRÍTICO</span><h2>Ética, futuro y sociedad</h2><p>La IA puede aportar beneficios, pero sus resultados dependen de los datos, el diseño y las decisiones de quienes la desarrollan y utilizan.</p></div>
+<div class="cards"><article class="card"><h3>✅ Ventajas</h3><ul><li>Automatiza tareas repetitivas.</li><li>Ayuda a explorar información.</li><li>Puede ampliar herramientas de accesibilidad.</li><li>Apoya investigación y creatividad.</li></ul></article><article class="card"><h3>⚠️ Riesgos y límites</h3><ul><li>Puede producir errores o inventar datos.</li><li>Los sesgos pueden perjudicar a grupos.</li><li>El uso excesivo puede afectar la privacidad.</li><li>La automatización transforma empleos y tareas.</li></ul></article><article class="card"><h3>🔐 Privacidad y derechos</h3><p>No compartas contraseñas, datos personales, expedientes ni imágenes de otras personas sin permiso. Comprueba las licencias y los derechos de autor del material generado o utilizado.</p></article><article class="card"><h3>🔭 Posibles futuros</h3><p>La IA podría apoyar servicios públicos, ciencia y educación; los resultados dependerán de la supervisión, las normas, el acceso equitativo y las decisiones sociales.</p></article></div>
+<div class="card quiz"><h3>Cuestionario rápido</h3><p id="question">¿Qué debes hacer antes de entregar una respuesta generada por IA?</p><div class="answers"><button data-answer="0">Copiarla sin leer</button><button data-answer="1">Verificarla y aportar mi propio criterio</button><button data-answer="0">Asumir que siempre es correcta</button></div><p id="quizResult" role="status" aria-live="polite"></p><button id="nextQuestion" class="secondary">Siguiente pregunta</button></div>
+<div class="card"><h3>Preguntas para reflexionar</h3><ul><li>¿Qué datos no deberíamos compartir con una herramienta?</li><li>¿Cómo comprobarías una afirmación importante?</li><li>¿Quién debe responder por un sistema automatizado que causa daño?</li></ul></div></section>
+<section class="section" id="sectores" hidden><div class="section-heading"><span class="eyebrow">04 · APLICACIONES</span><h2>IA en distintos sectores</h2><p>Ejemplos de uso que deben adaptarse al contexto y validarse con especialistas.</p></div><div class="cards">
+<article class="card"><div class="emoji">🩻</div><h3>Medicina</h3><p>Análisis de imágenes y apoyo a la organización clínica. Beneficio potencial: priorizar revisiones; no sustituye al personal médico.</p></article>
+<article class="card"><div class="emoji">🎓</div><h3>Educación</h3><p>Práctica personalizada, accesibilidad y retroalimentación. Requiere proteger datos estudiantiles y comprobar contenidos.</p></article>
+<article class="card"><div class="emoji">🏭</div><h3>Industria</h3><p>Mantenimiento predictivo y control de calidad mediante sensores e imágenes.</p></article>
+<article class="card"><div class="emoji">🌱</div><h3>Agricultura</h3><p>Estimación de humedad, detección de plagas y apoyo a decisiones de riego.</p></article>
+<article class="card"><div class="emoji">🛍️</div><h3>Comercio</h3><p>Pronóstico de demanda, búsqueda de productos y recomendaciones personalizadas.</p></article>
+<article class="card"><div class="emoji">🚦</div><h3>Transporte</h3><p>Planificación de rutas, análisis de tráfico y asistencia a sistemas de movilidad.</p></article>
+<article class="card"><div class="emoji">🛡️</div><h3>Seguridad informática</h3><p>Detección de patrones anómalos y apoyo a la clasificación de alertas, con revisión de falsos positivos.</p></article>
+<article class="card"><div class="emoji">🌎</div><h3>Medioambiente</h3><p>Análisis de imágenes satelitales, cambios en ecosistemas y modelos de demanda energética.</p></article>
+<article class="card"><div class="emoji">🔬</div><h3>Ciencia y tecnología</h3><p>Exploración de datos, simulaciones y apoyo a la generación de hipótesis científicas.</p></article>
+</div></section>
+<section class="section" id="tutoriales" hidden><div class="section-heading"><span class="eyebrow">05 · APRENDE HACIENDO</span><h2>Tutoriales prácticos y prompts</h2><p>Un prompt útil define la tarea, el contexto, el formato y los criterios de calidad. Adapta los ejemplos y verifica los resultados.</p></div>
+<div class="notice"><strong>Fórmula práctica:</strong> Rol + tarea + contexto + formato de salida + límites o criterios.</div>
+<div class="cards">
+<article class="card"><h3>📖 Estudiar un tema</h3><p>Solicita una explicación adaptada a tu nivel y ejemplos para practicar.</p><pre class="prompt">Explícame [tema] como estudiante de bachillerato. Usa lenguaje claro, incluye 3 ejemplos, un resumen de 5 puntos y 5 preguntas de práctica con respuestas al final. Señala qué datos debo verificar.</pre><button class="copy-btn" data-copy="Explícame [tema] como estudiante de bachillerato. Usa lenguaje claro, incluye 3 ejemplos, un resumen de 5 puntos y 5 preguntas de práctica con respuestas al final. Señala qué datos debo verificar.">Copiar prompt</button></article>
+<article class="card"><h3>💻 Programación</h3><pre class="prompt">Ayúdame a crear [proyecto] con [lenguaje]. Explica primero la estructura de archivos y después entrega código comentado. No omitas dependencias. Incluye pasos para ejecutar y pruebas para comprobar los botones y errores comunes.</pre><button class="copy-btn" data-copy="Ayúdame a crear [proyecto] con [lenguaje]. Explica primero la estructura de archivos y después entrega código comentado. No omitas dependencias. Incluye pasos para ejecutar y pruebas para comprobar los botones y errores comunes.">Copiar prompt</button></article>
+<article class="card"><h3>🔎 Investigación escolar</h3><pre class="prompt">Prepara una guía de investigación sobre [tema] para bachillerato. Organiza antecedentes, conceptos, ejemplos, conclusión y preguntas abiertas. Sugiere fuentes primarias o institucionales verificables; no inventes citas ni estadísticas.</pre><button class="copy-btn" data-copy="Prepara una guía de investigación sobre [tema] para bachillerato. Organiza antecedentes, conceptos, ejemplos, conclusión y preguntas abiertas. Sugiere fuentes primarias o institucionales verificables; no inventes citas ni estadísticas.">Copiar prompt</button></article>
+<article class="card"><h3>🖥️ Presentación</h3><pre class="prompt">Diseña un guion de presentación de [número] diapositivas sobre [tema] para estudiantes. Para cada diapositiva incluye título, 3 ideas breves, sugerencia visual y notas del expositor. Cierra con conclusión y fuentes para verificar.</pre><button class="copy-btn" data-copy="Diseña un guion de presentación de [número] diapositivas sobre [tema] para estudiantes. Para cada diapositiva incluye título, 3 ideas breves, sugerencia visual y notas del expositor. Cierra con conclusión y fuentes para verificar.">Copiar prompt</button></article>
+<article class="card"><h3>💡 Crear un proyecto</h3><pre class="prompt">Propón 5 ideas de proyecto escolar sobre [problema local]. Para cada idea explica objetivo, materiales accesibles, pasos, riesgos, cómo medir resultados y una mejora posible. Prioriza seguridad, bajo costo y utilidad comunitaria.</pre><button class="copy-btn" data-copy="Propón 5 ideas de proyecto escolar sobre [problema local]. Para cada idea explica objetivo, materiales accesibles, pasos, riesgos, cómo medir resultados y una mejora posible. Prioriza seguridad, bajo costo y utilidad comunitaria.">Copiar prompt</button></article>
+<article class="card"><h3>🧭 Pasos para usar IA responsablemente</h3><ol><li>Define lo que necesitas.</li><li>Agrega contexto no sensible.</li><li>Pide un formato claro.</li><li>Comprueba hechos y fuentes.</li><li>Reescribe con tu propio criterio.</li></ol></article>
+</div></section>
+<section class="section" id="tipos" hidden><div class="section-heading"><span class="eyebrow">06 · CONCEPTOS CLAVE</span><h2>Tipos de IA y glosario</h2><p>Algunas categorías describen el alcance de la IA; otras describen métodos o tareas, por lo que pueden superponerse.</p></div>
+<div class="cards">
+<article class="card"><h3>IA especializada o estrecha</h3><p>Sistema diseñado para tareas delimitadas, como clasificar imágenes o recomendar música.</p></article><article class="card"><h3>IA general (concepto teórico)</h3><p>Idea de un sistema con capacidades amplias y flexibles comparables a las humanas en muchos dominios; no debe confundirse con las herramientas actuales.</p></article>
+<article class="card"><h3>IA generativa</h3><p>Produce contenido nuevo, como texto, imágenes, audio o código, a partir de patrones aprendidos.</p></article><article class="card"><h3>Machine Learning</h3><p>Aprendizaje automático: métodos que encuentran patrones en datos para realizar predicciones o decisiones.</p></article>
+<article class="card"><h3>Deep Learning</h3><p>Aprendizaje profundo que utiliza redes neuronales con múltiples capas para representar patrones complejos.</p></article><article class="card"><h3>Procesamiento del lenguaje</h3><p>Técnicas para analizar, interpretar o generar lenguaje humano.</p></article>
+<article class="card"><h3>Visión artificial</h3><p>Métodos que analizan imágenes o video para detectar objetos, formas o patrones.</p></article><article class="card"><h3>Sistemas de recomendación</h3><p>Ordenan opciones usando señales de preferencias, similitud o comportamiento.</p></article><article class="card"><h3>Redes neuronales</h3><p>Modelos compuestos por unidades conectadas que ajustan parámetros durante el entrenamiento.</p></article>
+</div>
+<div class="card glossary"><h3>Buscador de glosario</h3><label for="glossarySearch">Busca un concepto de IA</label><input id="glossarySearch" type="search" placeholder="Ej. algoritmo, datos, modelo…" autocomplete="off"><div id="glossaryResults" class="glossary-results" aria-live="polite"></div></div>
+</section>
+<section class="section" id="reconocimiento" hidden><div class="section-heading"><span class="eyebrow">LABORATORIO · PROYECTO EXISTENTE</span><h2>Aplicación de reconocimiento facial</h2><p>Se integra tu aplicación original de clasificación de imágenes como página independiente, sin mezclar sus estilos con los del portal.</p></div>
+<div class="notice warning"><strong>Importante:</strong> el proyecto incluido clasifica imágenes en dos categorías entrenadas por el usuario; no verifica la identidad real de una persona. Usa fotos con autorización. La cámara solo se solicita al pulsar su botón dentro de la aplicación.</div>
+<div class="frame-toolbar"><span id="frameStatus">Aplicación integrada: reconocimiento_facial/modelopwa.html</span><button class="secondary" id="reloadFrame">Volver a cargar aplicación</button><button class="primary" id="openStandalone">Abrir en página independiente ↗</button></div>
+<div class="frame-wrap"><iframe id="faceFrame" title="Aplicación de clasificación de imágenes CBTis 260" src="reconocimiento_facial/modelopwa.html" loading="lazy" allow="camera; autoplay" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<button class="secondary back-portal" data-go="inicio">← Volver al portal de IA</button>
+</section>
+</main>
+<footer><p><strong>© 2026 Centro Bachillerato Tecnológico Industrial y de Servicios 260. Todos los derechos reservados.</strong></p><p>Portal Educativo de Inteligencia Artificial · Aprende, innova y construye el futuro con inteligencia artificial.</p><button id="backTop" class="footer-link">↑ Volver al inicio</button></footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body></html>
